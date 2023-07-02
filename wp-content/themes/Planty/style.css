@@ -1,0 +1,57 @@
+/*theme name:Planty
+template:twentytwenty*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+ body * {
+    font-family: 'Syne', sans-serif;
+   margin-bottom: 0%;
+   margin-bottom: 0%;
+   
+   
+   
+ }
+#site-header {width: 100%;
+    height: 80px;
+  align-items: center;
+margin: 0%;
+}
+ 
+ li.menu-item a {
+    color: #313332;
+    display: inline-block;
+    padding: 10px 15px;
+  font-size: 14px;
+  text-align: center;
+ }
+
+
+
+
+
+
+ 
+ li.menu-item a:hover,
+ li.menu-item.current-menu-item a {
+    color: #FFFFFF;
+    background-color:#DC9F96; 
+    text-decoration: none;
+ }
+
+
+
+ .elementor-container{width: 85%;
+    display: flex;
+justify-content: space-around;}
+
+
+ /*footer*/
+ #site-footer a{text-decoration: none ;
+    color:black ;
+
+}
+#site-footer{text-align: center;
+background-color: #FFFFFF ;
+width: 100%;
+height: 60px;
+margin-top: 0px;}
+
