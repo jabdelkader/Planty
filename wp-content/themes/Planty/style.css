@@ -4,44 +4,124 @@ template:twentytwenty*/
  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
  body * {
     font-family: 'Syne', sans-serif;
-   margin-bottom: 0%;
-   margin-bottom: 0%;
-   
-   
-   
+   margin: 0%;
  }
-#site-header {width: 100%;
-    height: 80px;
-  align-items: center;
-margin: 0%;
+
+/*formulaire de contact*/
+ /*.elementor-kit-80 button, .elementor-kit-80 input[type="button"], .elementor-kit-80 input[type="submit"], .elementor-kit-80 .elementor-button */
+#contacter{width: 40%;
+   height: 60px;
+   background-color: #E0B9B4 ; 
+   color: #FFFFFF  ;             
+   padding: 15px 15px;             
+   font-weight: bold;           
+   border-radius: 5px;
+   margin-bottom: 0%;
+  margin:1% 30%;;        
+   font-size: 20px ;
+   text-decoration: none;
+   
+
+   
+
 }
- 
- li.menu-item a {
-    color: #313332;
+ #submit-recommander{width: 16%;
+   height: 60px;
+   background-color: #E0B9B4 ; 
+   color: #FFFFFF  ;             
+   padding: 15px 15px;             
+   font-weight: bold;           
+   border-radius: 5px;
+  
+  
+   margin:5% 42%;        
+   font-size: 20px ;
+   text-decoration: none;}
+   
+
+   
+
+
+
+
+
+.libelle{font-size: 20px;
+color:#FFFFFF;}
+
+.form-recommder{display:flex;
+column-gap: 30px;
+justify-content: center;
+margin: auto;
+}
+
+.vertical-line{
+   border-left: 1px solid #FFFFFF;
+   display: inline-block;
+   height: 450px;
+margin:0 20px;
+align-items: center;
+ }
+
+
+ .titre-form {color:#FFFFFF;
+margin-bottom: 30px;
+font-size: 30px;}               
+      
+                
+
+
+
+input.wpcf7-text,.wpcf7-textarea{
+   padding: 10px;               
+   border-radius: 7px;          
+   border: 1px solid #FFFFFF;  
+   gap: 20px;      
+   font-size: 17px; 
+   margin:20px auto;
+           
+}
+/*image de la section 1 dans la page rencontrer*/
+img.wp-image-71{width: 145.30155790733838px;
+   height: 150.26222069652806px;
+   top: 0px;
+   left: 100px;
+   transform: rotate(-70deg);
+   position: absolute;
+   }
+
+
+
+
+ /*header*/
+ body:not(.overlay-header) .primary-menu > li.menu-item > a {
+    color:#000;
     display: inline-block;
     padding: 10px 15px;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
+  text-decoration: none;
+  
  }
 
 
-
-
-
-
- 
- li.menu-item a:hover,
- li.menu-item.current-menu-item a {
-    color: #FFFFFF;
+  li.menu-item a:hover,
+  li.menu-item.current-menu-item a
+  {
+    color: #FFFFFF !important ;
     background-color:#DC9F96; 
-    text-decoration: none;
+    
  }
 
 
+.site-logo{width: 35%;}
 
- .elementor-container{width: 85%;
-    display: flex;
-justify-content: space-around;}
+#site-header {width: 100%;
+   height: 80px;
+ align-items: center;
+
+}
+
+
 
 
  /*footer*/
@@ -53,5 +133,5 @@ justify-content: space-around;}
 background-color: #FFFFFF ;
 width: 100%;
 height: 60px;
-margin-top: 0px;}
 
+margin:0px;}
