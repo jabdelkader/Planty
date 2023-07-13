@@ -22,9 +22,26 @@ template:twentytwenty*/
    text-decoration: none;
    
 
-   
-
 }
+
+
+input.wpcf7-text,.wpcf7-textarea{
+   padding: 10px;               
+   border-radius: 7px;          
+   border: 1px solid #FFFFFF;  
+   gap: 20px;      
+   font-size: 17px; 
+   margin:20px auto;
+           
+}
+
+
+
+
+
+
+/*formulaire  de recommander*/
+
  #submit-recommander{width: 20%;
    height: 60px;
    background-color: #E0B9B4 ; 
@@ -68,18 +85,52 @@ margin-bottom: 30px;
 font-size: 30px;}               
       
                 
+/*la section deux de la pade recommander*/
 
 
+.container{display: flex;}
 
-input.wpcf7-text,.wpcf7-textarea{
-   padding: 10px;               
-   border-radius: 7px;          
-   border: 1px solid #FFFFFF;  
-   gap: 20px;      
-   font-size: 17px; 
-   margin:20px auto;
-           
+#quantity{width: 82px;
+height: 56px;
+border-radius: 5px;
 }
+
+#confirmation{width: 100px;
+height: 56px;
+color:#FFFFFF;
+background-color: #E0B9B4;
+text-align: center;
+font-size: 16px;
+border-radius: 5px;
+text-decoration: none;
+align-items: center;
+position: relative;
+top:20px;
+left:10px;}
+.plus{width: 31px;
+height: 27px;
+background-color: #DC9F96;
+text-align: center;
+border-radius: 0 5px 0 0;
+position: relative;
+bottom: 76px;
+left:51px;
+}
+
+.moins{width: 31px;
+   height: 27px;
+   background-color: #DC9F96;
+   text-align: center;
+   border-radius: 0 0 5px 0;
+   position: relative;
+   bottom: 74px;
+   left:51px;}
+
+
+
+
+
+
 /*image de la section 1 dans la page rencontrer*/
 img.wp-image-71{width: 145.30155790733838px;
    height: 150.26222069652806px;
@@ -209,7 +260,7 @@ margin:0px;}
 
 
 
-
+                                                   
 
 
 
