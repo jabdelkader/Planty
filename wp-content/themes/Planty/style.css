@@ -32,10 +32,7 @@ input.wpcf7-text,.wpcf7-textarea{
    gap: 20px;      
    font-size: 17px; 
    margin:20px auto;
-           
 }
-
-
 
 
 
@@ -145,30 +142,43 @@ img.wp-image-71{width: 145.30155790733838px;
 
  /*header*/
  body:not(.overlay-header) .primary-menu > li.menu-item > a {
-    color:#000;
+    color: black;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 35px 60px;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
+  align-items: center;
+
+ }
+
+.primary-menu > li{margin: 0px;}
   
- }
+li.menu-item-52 a
 
-
-  li.menu-item a:hover,
-  li.menu-item.current-menu-item a
   {
-    color: #FFFFFF !important ;
-    background-color:#DC9F96; 
-    
+   color:#FFFFFF !important ;
+    background-color:#DC9F96;
+    width:236px;
+   text-align: center;
  }
 
+ 
 
-.site-logo{width: 35%;}
+ 
 
-#site-header {width: 100%;
+
+.site-logo{width: 35%;
+height: 30px;
+}
+
+.header-inner{width: 100%;
    height: 80px;
  align-items: center;
+ justify-content: space-around;
+
+
+
 
 }
 
@@ -194,7 +204,7 @@ margin:0px;}
    height: 60px;
    background-color: #E0B9B4 ; 
    color: #FFFFFF  ;             
-   padding: 15px 15px;             
+   padding: 10px 10px;             
    font-weight: bold;           
    border-radius: 5px;
   
@@ -202,6 +212,48 @@ margin:0px;}
    margin:5% 40%;        
    font-size: 14px ;
    text-decoration: none;}
+
+   .container{display: flex;}
+
+#quantity{width: 70px;
+height: 56px;
+border-radius: 5px;
+}
+
+#confirmation{width: 90px;
+height: 56px;
+color:#FFFFFF;
+background-color: #E0B9B4;
+text-align: center;
+font-size: 16px;
+border-radius: 5px;
+text-decoration: none;
+align-items: center;
+position: relative;
+top:20px;
+left:10px;}
+.plus{width: 19px;
+height: 27px;
+background-color: #DC9F96;
+text-align: center;
+border-radius: 0 5px 0 0;
+position: relative;
+bottom: 76px;
+left:51px;
+}
+
+.moins{width: 19px;
+   height: 27px;
+   background-color: #DC9F96;
+   text-align: center;
+   border-radius: 0 0 5px 0;
+   position: relative;
+   bottom: 74px;
+   left:51px;}
+
+
+
+
    
 
 }
