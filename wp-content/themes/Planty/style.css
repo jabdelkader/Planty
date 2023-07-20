@@ -143,12 +143,14 @@ img.wp-image-71{width: 145.30155790733838px;
  /*header*/
  body:not(.overlay-header) .primary-menu > li.menu-item > a {
     color: black;
-    display: inline-block;
-    padding: 35px 60px;
+    display: flex;
+    justify-content: space-between;
+    padding:35px 55px;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
   align-items: center;
+  
 
  }
 
@@ -157,12 +159,16 @@ img.wp-image-71{width: 145.30155790733838px;
 li.menu-item-52 a
 
   {
-   color:#FFFFFF !important ;
+   color:#FFFFFF !important;
     background-color:#DC9F96;
     width:236px;
+
+   
    text-align: center;
+   order:3 ;
  }
 
+ #menu-item-52{order:1;}
  
 
  
@@ -212,6 +218,7 @@ margin:0px;}
    margin:5% 40%;        
    font-size: 14px ;
    text-decoration: none;}
+   bo
 
    .container{display: flex;}
 
