@@ -2,11 +2,11 @@
 template:twentytwenty*/
 
  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
- body * {
-    font-family: 'Syne', sans-serif;
-   margin: 0%;
- }
 
+ body * {
+   font-family: 'Syne', sans-serif;
+  margin: 0%;
+}
 /*formulaire de contact*/
  /*.elementor-kit-80 button, .elementor-kit-80 input[type="button"], .elementor-kit-80 input[type="submit"], .elementor-kit-80 .elementor-button */
 #contacter{width: 40%;
@@ -23,6 +23,10 @@ template:twentytwenty*/
    
 
 }
+#contacter{text-transform:capitalize;}
+#submit-recommander{text-transform:capitalize;}
+
+.elementor-303 .elementor-element.elementor-element-e7dc41a.elementor-column > .elementor-widget-wrap {overflow: hidden;}
 
 
 input.wpcf7-text,.wpcf7-textarea{
@@ -35,6 +39,13 @@ input.wpcf7-text,.wpcf7-textarea{
 }
 
 
+/*gallerie des images*/
+.elementor-303 .elementor-element.elementor-element-3b9246a {margin: 10px 25%;}
+.attachment-thumbnail .size-thumbnail{width: 393px;
+height: 262px;}
+/*boutton au dessous de galerie*/
+.elementor-303 .elementor-element.elementor-element-9600bbb{display: flex;
+justify-content: center;}
 
 
 /*formulaire  de recommander*/
@@ -128,14 +139,8 @@ left:51px;
 
 
 
-/*image de la section 1 dans la page rencontrer*/
-img.wp-image-71{width: 145.30155790733838px;
-   height: 150.26222069652806px;
-   top: 0px;
-   left: 100px;
-   transform: rotate(-70deg);
-   position: absolute;
-   }
+
+
 
 
 
@@ -143,51 +148,46 @@ img.wp-image-71{width: 145.30155790733838px;
  /*header*/
  body:not(.overlay-header) .primary-menu > li.menu-item > a {
     color: black;
-    display: flex;
-    justify-content: space-between;
-    padding:35px 55px;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
-  align-items: center;
-  
 
+  font-size: 16px;
+  text-align: center !important;
+  text-decoration: none;
  }
 
 .primary-menu > li{margin: 0px;}
   
-li.menu-item-52 a
-
-  {
+li.menu-item-52 a {
    color:#FFFFFF !important;
     background-color:#DC9F96;
-    width:236px;
-
+   text-align: center !important;
+   width: 236px;
+   padding:35px;
    
-   text-align: center;
-   order:3 ;
  }
 
- #menu-item-52{order:1;}
- 
-
- 
-
-
-.site-logo{width: 35%;
+ #menu-item-52{order:1;
+}
+.site-logo{width: 40%;
 height: 30px;
+
 }
 
 .header-inner{width: 100%;
    height: 80px;
  align-items: center;
- justify-content: space-around;
-
-
-
-
+ justify-content: space-between;
 }
 
+ul.primary-menu {width: 700px;
+display: flex;
+font-size: 1.8rem;
+font-weight: 500;
+gap:90px;
+align-items: center;
+justify-content: flex-end;
+text-align: center;
+overflow: hidden;
+}
 
 
 
@@ -201,9 +201,22 @@ background-color: #FFFFFF ;
 width: 100%;
 height: 60px;
 
+
 margin:0px;}
 
+.elementor-303 .elementor-element.elementor-element-dd1bb95 {
+height: 36px;
+margin:10px auto;}
 
+.elementor-303 .elementor-element.elementor-element-a5eaa12{width: 20%;
+   margin: 20px 25%;}
+
+
+   .elementor-45 .elementor-element.elementor-element-997d9d2 {margin:20px auto;}
+   .elementor-45 .elementor-element.elementor-element-908701a 
+      {margin: 15px auto;}
+   
+      .elementor-303 .elementor-element.elementor-element-cf5c9b9{margin:5px auto;}
 
 /*responsive*/
 @media screen and (max-width:800px){#submit-recommander{width: 20%;
@@ -218,7 +231,7 @@ margin:0px;}
    margin:5% 40%;        
    font-size: 14px ;
    text-decoration: none;}
-   bo
+   
 
    .container{display: flex;}
 
@@ -279,8 +292,7 @@ left:51px;
    font-size: 14px ;
    text-decoration: none;}
    
-
-
+   
 
 .form-recommder{display:flex;
    flex-direction: column;
