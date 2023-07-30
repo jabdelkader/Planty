@@ -29,13 +29,25 @@ template:twentytwenty*/
 .elementor-303 .elementor-element.elementor-element-e7dc41a.elementor-column > .elementor-widget-wrap {overflow: hidden;}
 
 
-input.wpcf7-text,.wpcf7-textarea{
+input.wpcf7-text{
    padding: 10px;               
    border-radius: 7px;          
    border: 1px solid #FFFFFF;  
    gap: 20px;      
    font-size: 17px; 
    margin:20px auto;
+   width: 383px;
+   height: 71px;
+}
+.wpcf7-textarea{
+   padding: 10px;               
+   border-radius: 7px;          
+   border: 1px solid #FFFFFF;  
+   gap: 20px;      
+   font-size: 17px; 
+   margin:20px auto;
+   width: 383px;
+   height: 237px;
 }
 
 
@@ -71,7 +83,9 @@ justify-content: center;}
 
 
 .libelle{font-size: 20px;
-color:#FFFFFF;}
+color:#FFFFFF;
+font-weight: 400 !important;
+line-height: 24px;}
 
 .form-recommder{display:flex;
 column-gap: 30px;
@@ -98,18 +112,31 @@ font-size: 30px;}
 
 .container{display: flex;}
 
-#quantity{width: 82px;
+#quantity1{width: 82px;
 height: 56px;
 border-radius: 5px;
 }
 
-#confirmation{width: 100px;
+#quantity2{width: 82px;
+   height: 56px;
+   border-radius: 5px;
+   }
+#quantity3{width: 82px;
+      height: 56px;
+      border-radius: 5px;
+      }
+#quantity4{width: 82px;
+         height: 56px;
+         border-radius: 5px;
+         }     
+
+.confirmer{width: 100px;
 height: 56px;
-color:#FFFFFF;
-background-color: #E0B9B4;
+color:#FFFFFF !important;
+background-color: #E0B9B4 !important;
 text-align: center;
-font-size: 16px;
-border-radius: 5px;
+font-size: 16px !important;
+border-radius: 5px !important ;
 text-decoration: none;
 align-items: center;
 position: relative;
@@ -169,6 +196,7 @@ li.menu-item-52 a {
 }
 .site-logo{width: 40%;
 height: 30px;
+padding-left: 15px;
 
 }
 
@@ -235,13 +263,27 @@ margin:10px auto;}
 
    .container{display: flex;}
 
-#quantity{width: 70px;
-height: 56px;
-border-radius: 5px;
+#quantity1{width: 70px ;
+height: 56px ;
+border-radius: 5px ;
 }
+#quantity2{width: 70px ;
+   height: 56px ;
+   border-radius: 5px ;
+   }
+ #quantity3{width: 70px ;
+      height: 56px ;
+      border-radius: 5px ;
+      }  
+#quantity4{width: 70px ;
+         height: 56px ;
+         border-radius: 5px ;
+         }      
 
-#confirmation{width: 90px;
-height: 56px;
+
+
+.confirmation{width: 90px !important;
+height: 56px !important;
 color:#FFFFFF;
 background-color: #E0B9B4;
 text-align: center;
@@ -291,6 +333,35 @@ left:51px;
    margin:5% 25%;        
    font-size: 14px ;
    text-decoration: none;}
+
+
+   input.wpcf7-text{
+                 
+      border-radius: 7px;          
+      border: 1px solid #FFFFFF;  
+      gap: 15px;      
+      font-size: 17px; 
+      margin:20px auto;
+      width: 340px;
+      height: 71px;
+   }
+   .wpcf7-textarea{
+                  
+      border-radius: 7px;          
+      border: 1px solid #FFFFFF;  
+      gap: 15px;      
+      font-size: 17px; 
+      margin:20px auto;
+      width:350px;
+      height: 200px;
+   }
+
+   .libelle{font-size: 20px;
+      color:#FFFFFF;
+      font-weight: 400 !important;
+      line-height: 24px;
+   }
+   
    
    
 
